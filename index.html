@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website for Ritwik Agarwal, a building science researcher and product manager.">
+    <title>Ritwik Agarwal | Home</title>
+    <link rel="stylesheet" href="myStyles.css">
+</head>
+<body>
+    <!-- The shared menu is stored in a separate HTML file. -->
+    <iframe class="menu-frame" src="menu.html" title="Main menu"></iframe>
+
+    <main class="page-shell">
+        <section class="intro" id="about">
+            <figure class="portrait-wrap">
+                <img class="portrait" src="image/ritwik.jpg" alt="Illustrated portrait of Ritwik Agarwal">
+                <figcaption>Illustrated profile image</figcaption>
+            </figure>
+
+            <div class="intro-copy">
+                <p class="eyebrow">Building science · Air quality · Product</p>
+                <h1>Hi, I am Ritwik.</h1>
+                <h2>I study how buildings can support healthier lives.</h2>
+                <p>
+                    I am a sustainable energy and indoor air quality researcher. I am also a product manager.
+                    My academic and professional path is rooted in India, with collaborations that connect
+                    research, technology, and public health.
+                </p>
+                <p>
+                    My current work looks at indoor air quality, occupant behavior, ventilation, and energy use.
+                    I enjoy turning complex evidence into practical tools, clear stories, and useful products.
+                </p>
+                <a class="button" href="projects.html">See my projects</a>
+            </div>
+        </section>
+
+        <section class="content-grid" aria-label="Background and interests">
+            <article class="card">
+                <h2>What I do</h2>
+                <p>I work across research and product development. My recent focus areas include:</p>
+                <ul class="interest-list">
+                    <li>Indoor air quality and public health</li>
+                    <li>Energy use and natural ventilation</li>
+                    <li>Occupant behavior in real homes</li>
+                    <li>Open science and responsible technology</li>
+                    <li>Product strategy and user engagement</li>
+                </ul>
+            </article>
+
+            <aside class="card" id="quickFacts">
+                <h2>Quick facts</h2>
+                <table class="fact-table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">Education</th>
+                            <td>Building Sciences</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Research</th>
+                            <td>Air quality and energy</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Experience</th>
+                            <td>Research and product</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Based in</th>
+                            <td>India</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </aside>
+        </section>
+
+        <section class="media-card">
+             <! -- img src="image/indoor-air-quality.jpg" alt="Illustration of airflow, an open window, and an indoor air quality sensor" -->
+             <video width="640" height="360" controls poster="image/thumbnail.jpg">
+                <source src="image/background.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+
+            <div>
+                <p class="eyebrow">Research in context</p>
+                <h2>Healthy air is a building problem and a human problem.</h2>
+                <p>
+                     A window can lower indoor carbon dioxide, yet outdoor pollution may enter at the same time.
+                    My research examines these real tradeoffs. The goal is to help people make better choices
+                    about ventilation, filtration, comfort, and energy.
+                </p>
+                <blockquote>
+                    “Good building research starts with how people actually live.”
+                </blockquote>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Ritwik Agarwal</p>
+        <p><a href="https://www.linkedin.com/in/ritwik-agarwal97" target="_blank" rel="noopener">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
